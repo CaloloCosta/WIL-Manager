@@ -13,6 +13,6 @@ We will be creating a system that will allow for the head of department to easil
 ![FLOWCHART](flowchart.png)
 
 ### Created by the Coding Crusaders at Namibia University of Science  and Technology in Namibia
-- [Carlos da Costa!](https://github.com/Calolocosta)
-- [Daddy Vatillfa!]()
-- [Francis Emvula!](https://github.com/Wombola)
+- [Carlos da Costa](https://github.com/Calolocosta)
+- [Daddy Vatillfa]()
+- [Francis Emvula](https://github.com/Wombola)

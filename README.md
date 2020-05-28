@@ -14,5 +14,5 @@ We will be creating a system that will allow for the head of department to easil
 
 ### Created by the Coding Crusaders at Namibia University of Science  and Technology in Namibia
 - [Carlos da Costa](https://github.com/Calolocosta)
-- [Daddy Vatillfa]()
+- [Daddy Vatillfa](https://github.com/daddyvat)
 - [Francis Emvula](https://github.com/Wombola)

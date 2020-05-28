@@ -9,7 +9,10 @@ They have a student mentoring programming that is called work integrated learnin
 ## Proposed system
 We will be creating a system that will allow for the head of department to easily manage the different students and receive as well as review daily reports.
 
+## Flowchart
+![FLOWCHART](flowchart.png)
+
 ### Created by the Coding Crusaders at Namibia University of Science  and Technology in Namibia
-- Carlos da Costa
-- Daddy Vatillfa
-- Francis Emvula
+- ![Carlos da Costa](https://github.com/Calolocosta)
+- ![Daddy Vatillfa]()
+- ![Francis Emvula](https://github.com/Wombola)

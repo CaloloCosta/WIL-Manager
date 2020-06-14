@@ -1,4 +1,5 @@
-#include "User.h"
+#include<iostream>
+using namespace std;
 class Student:public User
 {
 private:
@@ -30,6 +31,16 @@ public:
     
     string getProgramme(){
         return programme;
+    }
+
+    // details
+    void details(){
+        cout << "Firstname: "+ this->getFirstname()<<endl;
+        cout << "Surname: "+ this->getSurname()<<endl;
+        cout << "Phone: "+ this->getPhone()<<endl;
+        cout << "Email: "+ this->getEmail()<<endl;
+        cout << "Current Semester: "+ this->getSemester()<<endl;
+        cout << "Programmer: "+ this->getProgramme()<<endl;
     }
 
 };

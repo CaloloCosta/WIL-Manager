@@ -1,6 +1,5 @@
 #include<iostream>
 #include <string>
-#include "User.h"
 using namespace std;
 class SuperVisor:public User
 {
@@ -33,7 +32,12 @@ public:
 
     // details
     void details(){
-        cout << "Office: "+ this->getOfficeNumber();
+        cout << "Firstname: "+ this->getFirstname()<<endl;
+        cout << "Surname: "+ this->getSurname()<<endl;
+        cout << "Office: "+ this->getOfficeNumber()<<endl;
+        cout << "Phone: "+ this->getPhone()<<endl;
+        cout << "Email: "+ this->getEmail()<<endl;
+        cout << "Visiting hours: "+ this->getVh()<<endl;
     }
 
 };

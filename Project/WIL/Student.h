@@ -43,6 +43,12 @@ public:
         cout << "Programmer: "+ this->getProgramme()<<endl;
     }
 
+    string data(){
+        //string on, string vh, string email, string phone, string uid, string pw, string firstname, string surname
+        return this->setUserid()+","+this->getPassword()+","+this->getFirstname()+","+this->getSurname()+","+this->getEmail()+","+this->getPhone()+","+to_string(this->getSemester())+","+this->getProgramme()+"\n";
+    }
+    
+
 };
 
 

@@ -1,8 +1,7 @@
 #include<string>
 #include<iostream>
-#include "User.h"
-#include "SuperVisor.h"
-#include "Student.h"
+
+
 using namespace std;
 class UserManagement
 {
@@ -21,7 +20,7 @@ public:
         return false;
     }
 
-    void addLecturer(){
+    SuperVisor addLecturer(){
         string firstname,surname, email, vh, phone, uid, office;
         
         cout << "Lecturer Firstname: ";
@@ -41,10 +40,11 @@ public:
         SuperVisor sv = SuperVisor(office,"10-11",email,phone,uid,"123",firstname,surname);
         cout << "Lecturer reistered successfully!"<<endl;
         sv.details();
+        return sv;
 
     }
 
-    void addStudent(){
+    Student addStudent(){
         string firstname,surname, email, phone, uid, programme,b;
         int semester;
         
@@ -70,6 +70,7 @@ public:
         // Student(string email, string phone, string uid, string pw, string firstname, string surname, int semester, string programme)
         Student st = Student(email,phone,uid,"123",firstname,surname,semester,programme);
         st.details();
+        return st;
 
     }
 };

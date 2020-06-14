@@ -12,6 +12,7 @@ public:
         officenumber = on;
         visiting_hours = vh;
     }
+    SuperVisor();
 
     // setters
     void setOfficeNumber(string on){
@@ -39,6 +40,12 @@ public:
         cout << "Email: "+ this->getEmail()<<endl;
         cout << "Visiting hours: "+ this->getVh()<<endl;
     }
+
+    string data(){
+        //string on, string vh, string email, string phone, string uid, string pw, string firstname, string surname
+        return this->setUserid()+","+this->getPassword()+","+this->getFirstname()+","+this->getSurname()+","+this->getEmail()+","+this->getPhone()+","+this->getOfficeNumber()+","+this->getVh()+"\n";
+    }
+    
 
 };
 

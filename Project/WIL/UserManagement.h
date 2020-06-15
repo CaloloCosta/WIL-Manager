@@ -14,9 +14,17 @@ public:
         this->username = username;
         this->password = password;
         this->userType = userType;
-        if(this->username.compare("admin") == 0 && this->password.compare("admin") == 0 && this->userType == 3){
-            return true;
+        if(userType == 0){
+            if(this->username.compare("admin") == 0 && this->password.compare("admin") == 0 && this->userType == 3){
+                return true;
+            }
+        }else if(userType == 1){
+            return FileHandling::check(FileHandling::read("lecturers.csv"),username,password,userType);
         }
+        else if(userType == 2){
+            return FileHandling::check(FileHandling::read("students.csv"),username,password,userType);
+        }
+        
         return false;
     }
 

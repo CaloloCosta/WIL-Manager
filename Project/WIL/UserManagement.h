@@ -14,7 +14,7 @@ public:
         this->username = username;
         this->password = password;
         this->userType = userType;
-        if(userType == 0){
+        if(userType == 3){
             if(this->username.compare("admin") == 0 && this->password.compare("admin") == 0 && this->userType == 3){
                 return true;
             }
